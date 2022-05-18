@@ -1,0 +1,23 @@
+[
+    {
+        "facil":{
+                "portaavione": "1",
+                "acorazado": "2",
+                "buque": "3",
+                "lancha": "4"
+        },
+        "normal":{
+                "portaavione": "0",
+                "acorazado": "1",
+                "buque": "1",
+                "lancha": "2"
+        },
+        "dificil":{
+                "portaavione": "0",
+                "acorazado": "0",
+                "buque": "2",
+                "lancha": "1"
+        }
+    }
+]
+

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    text-align: center;
+    background-image: url("wallpaper.jpg"); 
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+} 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(#00000064, #76777b7d);
+    height: 50px;
+    border-bottom:  1px solid #ffffff;
+    backdrop-filter: blur(5px); 
+    margin-bottom: 20px; 
+    padding-bottom: 5px;
+
+}
+h1{
+    color: #ffffff;
+    font-size: 50px;
+     font-weight: bold; 
+     text-shadow: 0 0 0.2em #e6b794, 0 0 0.2em #e6b794, 0 0 0.2em #e6b794; 
+}
+h2{
+    color: #000000;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+p{
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+input{
+    border: solid 1px black;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background: #f7f4f4;
+}
+.usuario{
+    width: 375px;
+}
+.contraseña{
+    width: 340px;
+}
+.enviar{
+    width: 90%;
+    height: 40px;
+    margin-top: 40px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.contenedor1{
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.473);
+    backdrop-filter: blur(2px); 
+    width: 500px;
+    height: 300px;
+
+}
+
+.enviar:hover{
+    background-color: #e6b794;
+
+}
+
+

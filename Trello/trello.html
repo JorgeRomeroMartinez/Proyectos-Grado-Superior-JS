@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Jorge Romero</title>
+    <link rel="stylesheet" href="trello.css">
+</head>
+<body>
+    <div class="contenedor_reloj">
+        <div class="hora">
+            <p id="date"></p>
+        </div>
+        <div class="hora"> 
+            <p id="time"></p>
+        </div>
+        <div class="contenedor_log">
+            <textarea class="usuarios" placeholder="Usuario"></textarea>
+            <textarea class="usuarios" placeholder="Contraseña"></textarea>
+            <button class="boton_usuarios">Iniciar Sesion</button> 
+            <button class="boton_usuarios">Registrarse</button> 
+        </div> 
+    </div>
+    <div class="contenedor" id="contenedor">
+        <div class="cajas" id="caja1">
+            <h1>Sin hacer</h1>
+            <button class="boton1" id="añadir1">Añadir</button>
+        </div>
+        <div class="cajas" id="caja2">
+            <h1>En proceso</h1>
+            <button class="boton1" id="añadir2">Añadir</button>
+        </div>
+        <div class="cajas" id="caja3">
+            <h1>Finalizado</h1>
+            <button class="boton1" id="añadir3">Añadir</button>
+        </div>
+    </div>
+    <script src="trello.js"></script>
+</body>
+</html>

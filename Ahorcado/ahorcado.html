@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahorcado</title>
+    <style>
+        *{
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:#202731 ;
+            text-align: center;
+            color:#FAF566;
+        }
+        h1{
+            font-size: 60px;
+        }
+        section{
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        input[type="text"]{
+            font-size: 20px;
+            background-color: #9ACFDD;
+            color:#202731;
+            border: 1px solid #CABAAB;
+            padding:  10px;
+            border-radius: 5px;
+        }
+        input[type="button"]{
+            background-color: #9ACFDD;
+            padding:  10px;
+            border: 1px solid #CABAAB;
+            color:#202731;
+            font-size: 20px;
+            border-radius: 5px;
+            letter-spacing: 4px;
+       
+            text-decoration: none;
+            overflow: hidden;
+            transition: 0.1s;
+        }
+        input[type="button"]:hover{
+        background:#9ACFDD ;
+        box-shadow: 0 0 10px #FAF566 , 0 0 40px #FAF566 , 0 0 80px #B9BF04 ;
+        transition-delay: 0s;
+        }
+        div{
+            padding:  10px;
+            font-size: 20px;
+        }  
+    </style>
+</head>
+<body>
+<h1>Ahorcado de F1</h1>
+<section>
+   <input type="text" id="letra" maxlength="1" placeholder="Escribe la letra"> <input type="button" id="boton" value="Comprobar"> <input type="button" id="reload" value="Reiniciar"> <input type="button" id="pista" value="pista"><br>
+   <div id="frase"></div>
+   <div id="vida">El número de vidas que quenan son:  6 vidas</div>
+   <div id="ver">Las letras introducidas son: </div>
+   <div id="solucion"></div>
+   <div id="img"> <img src="img/6.png"></img></div>
+</section>
+<script src="ahorcado.js"></script>
+</body>
+</html>

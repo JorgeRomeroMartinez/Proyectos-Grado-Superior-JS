@@ -1,0 +1,21 @@
+[
+    {
+        "Nombre": "Jorge",
+        "Apellido": "Romero",
+        "Contraseña": "1234",
+        "Dificultad": "facil"
+    },
+    {
+        "Nombre": "Roberto",
+        "Apellido": "Bermejo",
+        "Contraseña": "1234",
+        "Dificultad": "normal"
+    },
+    {
+        "Nombre": "Josue",
+        "Apellido": "Castillo",
+        "Contraseña": "1234",
+        "Dificultad": "dificil" 
+    }
+]
+ 

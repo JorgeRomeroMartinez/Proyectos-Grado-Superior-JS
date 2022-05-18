@@ -1,0 +1,23 @@
+[
+    {
+        "Nombre": "Jorge",
+        "Apellidos": "Romero Martínez",
+        "Edad": 24,
+        "Contraseña": "1234", 
+        "Dificultad": 1
+    },
+    {
+        "Nombre": "Roberto",
+        "Apellidos": "Romero Martínez",
+        "Edad": 24,
+        "Contraseña": "1234", 
+        "Dificultad": 3
+    },
+    {
+        "Nombre": "Josue",
+        "Apellidos": "Romero Martínez",
+        "Edad": 20,
+        "Contraseña": "1234", 
+        "Dificultad": 2
+    }
+]
